@@ -2,10 +2,13 @@
 
 A machine learning classification model to assess early risk of diabetes based on patient health indicators and diagnostic features.
 
-## Contents
+## Project Structure
 - **Code**: `ML_Diabetes_Risk_Classification (code).ipynb`
 - **Dataset / Resources**: `diabetes_risk_dataset_text_labels.csv`
 - **Documentation**: `README.md`
+
+## Output
+![Model Output](output.png)
 
 ## Requirements
 ```bash
@@ -18,7 +21,7 @@ pip install pandas numpy scikit-learn matplotlib seaborn jupyter
 git clone https://github.com/Yuossef-Ashraf/ML_Diabetes_Risk_Classification.git
 cd ML_Diabetes_Risk_Classification
 ```
-2. Open and run the project code:
+2. Run the project:
 ```bash
 jupyter notebook "ML_Diabetes_Risk_Classification (code).ipynb"
 ```
