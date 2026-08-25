@@ -1,28 +1,30 @@
-# Diabetes Risk Classification Model 🩺🩸
+# Diabetes Risk Classification
 
-Healthcare predictive model utilizing machine learning classifiers to assess early diabetes risk in patients.
+A machine learning classification model to assess early risk of diabetes based on patient health indicators and diagnostic features.
 
-## Key Features ✨
-- Well-structured code and clean modular implementation.
-- Built with modern standard tools: **Python, Scikit-Learn, Decision Trees, Classification Metrics**.
-- Clean data preprocessing, EDA, and model evaluation metrics.
+## Contents
+- **Code**: `ML_Diabetes_Risk_Classification (code).ipynb`
+- **Dataset / Resources**: `diabetes_risk_dataset_text_labels.csv`
+- **Documentation**: `README.md`
 
-## Project Structure 📂
-```
-ML_Diabetes_Risk_Classification/
-├── .gitignore
-├── README.md
-└── ... (project source files)
+## Requirements
+```bash
+pip install pandas numpy scikit-learn matplotlib seaborn jupyter
 ```
 
-## Setup & Installation 🚀
+## Usage
+1. Clone the repository:
 ```bash
 git clone https://github.com/Yuossef-Ashraf/ML_Diabetes_Risk_Classification.git
 cd ML_Diabetes_Risk_Classification
 ```
+2. Open and run the project code:
+```bash
+jupyter notebook "ML_Diabetes_Risk_Classification (code).ipynb"
+```
 
-## Author 👤
-Created and maintained by **Yuossef Ashraf**.
+## Author
+Yuossef Ashraf
 
-## License 📜
-Distributed under the MIT License.
+## License
+MIT License
